@@ -5,7 +5,6 @@
         class="mx-auto flex h-full flex-nowrap border-b border-solid border-brand-gray-1 px-8"
       >
         <a href="/" class="flex h-full items-center text-xl">{{ company }}</a>
-        <h2 class="ml-8 flex h-full items-center">Developed by {{ author }}</h2>
       </div>
     </div>
   </header>
@@ -16,8 +15,7 @@ export default {
   name: "MainNav",
   data() {
     return {
-      company: "Rok Carrers",
-      author: "Rok Krivicic",
+      company: "Rok Careers",
     };
   },
 };
